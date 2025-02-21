@@ -4247,6 +4247,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_marbastlib-various:TP4056"
 			(pin_names
 				(offset 1.016)
@@ -5692,6 +5873,393 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:AO4842"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO4842"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "7.7A Id, 30V Vds, Dual N-Channel MOSFET, 21mOhm Ron, SO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO4842_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "AO4842_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AO4842_2_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -5790,10 +6358,40 @@
 		)
 	)
 	(junction
+		(at 453.39 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05fac0c1-8f0c-492d-9b73-4844d009995d")
+	)
+	(junction
+		(at 466.09 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a48d7f0-ee22-4d58-9fcc-40d4324f1371")
+	)
+	(junction
+		(at 389.89 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb331bb-41db-47da-9ffa-2232fdb550e3")
+	)
+	(junction
 		(at 88.9 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "136c998e-a896-4395-a90e-bae0f38eaa19")
+	)
+	(junction
+		(at 351.79 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153e4657-2449-4cf9-a3ea-ad69c5a58772")
+	)
+	(junction
+		(at 351.79 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18339691-ff42-4f8a-a8b6-ca0405d0f3ce")
 	)
 	(junction
 		(at 156.21 185.42)
@@ -5802,10 +6400,118 @@
 		(uuid "1fdaa17e-b27c-4866-9b9e-093a5ed6bf0c")
 	)
 	(junction
+		(at 226.06 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21e2ea75-be68-4497-903b-af9675db1711")
+	)
+	(junction
+		(at 200.66 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2266dde3-3c74-43fe-9792-5b3eef5c1e64")
+	)
+	(junction
 		(at 63.5 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2397e81c-bdb2-46b9-942d-447ac0b8b9e3")
+	)
+	(junction
+		(at 402.59 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d60377-941c-4da2-a0d4-7ccd3a233914")
+	)
+	(junction
+		(at 402.59 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf35894-b479-494a-853f-a189a49bec17")
+	)
+	(junction
+		(at 427.99 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e5b602a-d0e8-48fd-b152-2c42a27b2887")
+	)
+	(junction
+		(at 351.79 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3418a1ab-574e-44ea-9d16-d29753b2933f")
+	)
+	(junction
+		(at 377.19 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f5ed5ab-75c3-428c-a6e5-620a89caefa9")
+	)
+	(junction
+		(at 389.89 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43bae4d7-21b5-4616-ac56-2ca6a3b0dc2f")
+	)
+	(junction
+		(at 466.09 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "446e2b60-54ac-4d31-82ca-4fe7eef8ff68")
+	)
+	(junction
+		(at 377.19 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "446fd59a-8c6c-40a2-b851-7b9e4ca5dd71")
+	)
+	(junction
+		(at 427.99 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "474bc99e-f431-4b48-8bf9-ae81e4dfb4e0")
+	)
+	(junction
+		(at 241.3 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4df49d-969a-4c26-9159-462e687df7bf")
+	)
+	(junction
+		(at 241.3 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b38acfd-aacb-4897-b658-cbd6ef3b61d5")
+	)
+	(junction
+		(at 402.59 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ef96452-2d10-45ca-893d-b61aa0f6e4aa")
+	)
+	(junction
+		(at 415.29 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523ce895-ee10-42c9-b235-ddcfa006f824")
+	)
+	(junction
+		(at 402.59 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535b974d-1447-439c-b235-0931f6d32471")
+	)
+	(junction
+		(at 364.49 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "540b27e5-f5d7-49b8-9c7a-b73ce0e7abed")
+	)
+	(junction
+		(at 440.69 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5483d725-41c9-4f8d-ac97-88da0afe9d49")
 	)
 	(junction
 		(at 67.31 31.75)
@@ -5814,10 +6520,52 @@
 		(uuid "586b86ac-f9ef-4813-b0c7-f67494ef874c")
 	)
 	(junction
+		(at 185.42 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ce7738d-6edd-4fd8-b7a7-9710fa72453d")
+	)
+	(junction
+		(at 415.29 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a932b4-822d-4b11-8f95-cb188be571a1")
+	)
+	(junction
+		(at 427.99 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66b1c1f9-bd0c-4c07-ae1a-dfe9bda0b3eb")
+	)
+	(junction
+		(at 415.29 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c4fb1b3-b935-40aa-b194-cc7225f7c6c2")
+	)
+	(junction
+		(at 351.79 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c96c806-ac15-4b9d-bf40-8143249d9808")
+	)
+	(junction
 		(at 125.73 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fd11ccb-0bd6-4aa7-bdca-15d4ca459d66")
+	)
+	(junction
+		(at 415.29 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "716e9576-3d3d-4cf6-8496-7d0c9878ba5a")
+	)
+	(junction
+		(at 185.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cd83337-ba30-4cdc-a829-927468e04874")
 	)
 	(junction
 		(at 64.77 31.75)
@@ -5826,10 +6574,40 @@
 		(uuid "80bb10fc-9cce-45a4-95b5-20e7e64888f1")
 	)
 	(junction
+		(at 200.66 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "813c7271-c882-4e1b-9dc2-f49b7290b3cd")
+	)
+	(junction
+		(at 415.29 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "836f603c-f604-4c7d-a8e7-1bb5d7f31765")
+	)
+	(junction
 		(at 49.53 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84f09c29-233b-43bc-906b-7abd1dc67ad5")
+	)
+	(junction
+		(at 402.59 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "852d4c4d-5986-4c16-896a-ffdbdf2a1659")
+	)
+	(junction
+		(at 440.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853eb1ea-f893-41d2-8724-eede1b97e01b")
+	)
+	(junction
+		(at 440.69 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c511d21-3d1a-4be2-9afa-de1cb2fb2753")
 	)
 	(junction
 		(at 156.21 173.99)
@@ -5838,10 +6616,88 @@
 		(uuid "8d8e3123-2e1d-4f34-9f4a-80d65dcf7ee0")
 	)
 	(junction
+		(at 364.49 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956b51b1-299f-44fa-b77e-cb8e61bc6c52")
+	)
+	(junction
+		(at 215.9 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d4053c-b299-4c60-9aea-b17feddcc373")
+	)
+	(junction
+		(at 466.09 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a260635-077f-4b58-85aa-769ed0eaa0d2")
+	)
+	(junction
+		(at 233.68 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc815d4-1327-4f20-9748-8e42bac2708b")
+	)
+	(junction
+		(at 364.49 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9df74a55-7a41-40ee-9849-2ae3158879aa")
+	)
+	(junction
+		(at 193.04 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9edd923b-e417-4de2-854f-0272d66d9cd7")
+	)
+	(junction
+		(at 389.89 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a67283d3-28aa-4b44-b95e-69dc6995b388")
+	)
+	(junction
+		(at 453.39 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa63e2a8-ed16-4a76-a221-80efcd01ba10")
+	)
+	(junction
+		(at 453.39 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5157935-785d-4395-b7e8-5748f70e82a0")
+	)
+	(junction
+		(at 466.09 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d695b5-28ba-4882-8f03-2b0ee1dd927f")
+	)
+	(junction
+		(at 453.39 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a1692a-a859-47c4-b5d0-efabbcf8131d")
+	)
+	(junction
 		(at 125.73 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b94d2127-14f7-4b1f-ade9-ab119b523dd3")
+	)
+	(junction
+		(at 226.06 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba25adab-44e6-48b8-8220-f8c855a1c563")
+	)
+	(junction
+		(at 453.39 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbf92869-8d08-4500-a0e3-73dcabc16525")
 	)
 	(junction
 		(at 128.27 91.44)
@@ -5850,16 +6706,100 @@
 		(uuid "bcdce967-02ad-41f9-b988-68cabbaa7ce1")
 	)
 	(junction
+		(at 175.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd93ccf8-c6fc-4833-b3ab-8b4c66895eed")
+	)
+	(junction
+		(at 377.19 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ab8e21-98f3-42f3-93bc-6f060c95cff7")
+	)
+	(junction
+		(at 389.89 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c754a7fb-f7b7-4be7-a1cc-d33bebc27c30")
+	)
+	(junction
+		(at 440.69 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cefe41da-d1f7-450b-ac03-73028ac5e470")
+	)
+	(junction
+		(at 377.19 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e84ef1-2eb6-4aab-aacc-6f8fa5f95cd1")
+	)
+	(junction
+		(at 364.49 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5cfe9a-e005-49a9-9b3e-6e00c728a202")
+	)
+	(junction
+		(at 389.89 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db3ae89f-afd8-4db8-b621-d96d1689fd48")
+	)
+	(junction
+		(at 175.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc31a627-95ce-4cb2-a77d-e6b730134cd6")
+	)
+	(junction
+		(at 215.9 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de1ebb25-324c-4548-9ee9-a7797cc82539")
+	)
+	(junction
 		(at 29.21 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e174a7ec-f815-4e6a-b475-56b29d214082")
 	)
 	(junction
+		(at 364.49 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e343e0dd-2fc2-48c3-9d62-0975b1c577ea")
+	)
+	(junction
 		(at 68.58 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee893fcc-2c98-4b9e-b8aa-aa12521070b8")
+	)
+	(junction
+		(at 440.69 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f05d843d-6503-40f6-b123-dc0de938db54")
+	)
+	(junction
+		(at 427.99 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b3ee88-020c-4eac-b3fe-0749f9525198")
+	)
+	(junction
+		(at 427.99 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9dd99cc-8043-48cb-ab2b-53a7ee966669")
+	)
+	(junction
+		(at 377.19 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe777013-a4cc-428e-a451-a69bf46e4bfd")
 	)
 	(wire
 		(pts
@@ -5883,6 +6823,76 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 31.75) (xy 241.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044d5673-4e0c-495d-a620-57d16afa5fa6")
+	)
+	(wire
+		(pts
+			(xy 226.06 26.67) (xy 226.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057399b9-70f3-414a-9ae4-61ffd3013020")
+	)
+	(wire
+		(pts
+			(xy 377.19 33.02) (xy 389.89 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08518ea1-872a-4cab-aab4-cb4477f7b120")
+	)
+	(wire
+		(pts
+			(xy 200.66 17.78) (xy 200.66 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b05fc8a-be7a-46eb-a2de-65c14f9f2716")
+	)
+	(wire
+		(pts
+			(xy 389.89 17.78) (xy 402.59 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4deaab-8db6-497a-9c96-22eb6f815d2d")
+	)
+	(wire
+		(pts
+			(xy 215.9 43.18) (xy 218.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2e84f9-62fc-453f-9d93-295643076253")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 234.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f81cadc-95d7-4176-b304-ad5aea6279e4")
+	)
+	(wire
+		(pts
 			(xy 60.96 31.75) (xy 64.77 31.75)
 		)
 		(stroke
@@ -5890,6 +6900,66 @@
 			(type default)
 		)
 		(uuid "10975df6-4d64-406e-9297-1bbd6c7388ee")
+	)
+	(wire
+		(pts
+			(xy 364.49 60.96) (xy 377.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11034b66-acaa-4fe8-9cab-56699508451e")
+	)
+	(wire
+		(pts
+			(xy 453.39 60.96) (xy 466.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fb5bbb-0ff0-4dfd-abb6-d736bb9f42c9")
+	)
+	(wire
+		(pts
+			(xy 351.79 46.99) (xy 364.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15290284-44f7-4d9a-9bb0-b73a9013640c")
+	)
+	(wire
+		(pts
+			(xy 377.19 17.78) (xy 389.89 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cf9543-c72c-4538-98fc-e424ba0c0382")
+	)
+	(wire
+		(pts
+			(xy 459.74 6.35) (xy 459.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17861a94-1f05-4f09-bea1-c7182597a3e1")
+	)
+	(wire
+		(pts
+			(xy 415.29 46.99) (xy 427.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d19b19-91aa-40ac-b1b4-c8619e65d814")
 	)
 	(wire
 		(pts
@@ -5913,6 +6983,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 43.18) (xy 175.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6da219-d0f9-4e49-9eb2-87aac7254e57")
+	)
+	(wire
+		(pts
+			(xy 215.9 49.53) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f03e63e-c2e0-4d9b-8d94-aab07e36e61d")
+	)
+	(wire
+		(pts
 			(xy 97.79 186.69) (xy 97.79 189.23)
 		)
 		(stroke
@@ -5923,6 +7013,36 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 46.99) (xy 453.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217f4334-48b3-4c8b-a9c0-50925c201fd3")
+	)
+	(wire
+		(pts
+			(xy 226.06 17.78) (xy 233.68 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b54854-657c-4c40-bdde-50d63c1d431b")
+	)
+	(wire
+		(pts
+			(xy 200.66 17.78) (xy 207.01 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25559dc3-af92-4ff1-8bfa-bc0419e21a0d")
+	)
+	(wire
+		(pts
 			(xy 149.86 66.04) (xy 163.83 66.04)
 		)
 		(stroke
@@ -5930,6 +7050,16 @@
 			(type default)
 		)
 		(uuid "261b07cc-c278-4259-8d54-dcac40356063")
+	)
+	(wire
+		(pts
+			(xy 427.99 60.96) (xy 440.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a330346-3df5-4bdd-8aa3-5ba2fdcabd88")
 	)
 	(wire
 		(pts
@@ -5953,6 +7083,36 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 60.96) (xy 351.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2caac13e-3e5f-496f-bfc0-66185a230857")
+	)
+	(wire
+		(pts
+			(xy 233.68 17.78) (xy 233.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309837e4-0e58-4346-b7da-ff21655d6eec")
+	)
+	(wire
+		(pts
+			(xy 339.09 74.93) (xy 351.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31558779-318e-4884-93d7-241e5eebcc35")
+	)
+	(wire
+		(pts
 			(xy 60.96 166.37) (xy 68.58 166.37)
 		)
 		(stroke
@@ -5960,6 +7120,26 @@
 			(type default)
 		)
 		(uuid "3201fe69-a621-4a6f-ad34-5807a5660112")
+	)
+	(wire
+		(pts
+			(xy 402.59 85.09) (xy 408.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3317fee5-3f6c-422b-8e55-eab637e35df9")
+	)
+	(wire
+		(pts
+			(xy 402.59 60.96) (xy 415.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33fc29c6-5a6d-4dfa-b0a2-5f28a53efec3")
 	)
 	(wire
 		(pts
@@ -5973,6 +7153,56 @@
 	)
 	(wire
 		(pts
+			(xy 408.94 6.35) (xy 408.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34af45ec-baa7-4f2e-aebf-53419d8a8773")
+	)
+	(wire
+		(pts
+			(xy 364.49 85.09) (xy 370.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c56261-5763-4977-af97-4d29dd247a19")
+	)
+	(wire
+		(pts
+			(xy 185.42 26.67) (xy 185.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cf3fb4-fc3f-4090-bbb6-b60784b89456")
+	)
+	(wire
+		(pts
+			(xy 466.09 46.99) (xy 492.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf7fbdb-f0e1-40fe-af60-fedfbf6ec3f1")
+	)
+	(wire
+		(pts
+			(xy 172.72 43.18) (xy 175.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db12402-9b6c-4618-818d-00946a57ff01")
+	)
+	(wire
+		(pts
 			(xy 62.23 175.26) (xy 68.58 175.26)
 		)
 		(stroke
@@ -5980,6 +7210,36 @@
 			(type default)
 		)
 		(uuid "3e429098-c024-4d5f-a5d1-ef186e20a8d4")
+	)
+	(wire
+		(pts
+			(xy 427.99 33.02) (xy 440.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e50ef1a-346d-4092-9a87-b3381ab58fe7")
+	)
+	(wire
+		(pts
+			(xy 466.09 33.02) (xy 492.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2cf80f-2e6b-40b4-bc6d-4064e9b11f00")
+	)
+	(wire
+		(pts
+			(xy 472.44 6.35) (xy 472.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7f524c-5be0-4ded-96f8-78a086faba8b")
 	)
 	(wire
 		(pts
@@ -5993,6 +7253,66 @@
 	)
 	(wire
 		(pts
+			(xy 466.09 74.93) (xy 492.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40059474-c7c5-43ba-8f89-8f5b33c5f38f")
+	)
+	(wire
+		(pts
+			(xy 175.26 50.8) (xy 185.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447526bf-f2ee-419d-8091-fb7dd7e92663")
+	)
+	(wire
+		(pts
+			(xy 440.69 74.93) (xy 453.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bc986e-a93e-43b0-9277-4cb39846e280")
+	)
+	(wire
+		(pts
+			(xy 185.42 50.8) (xy 194.31 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45786bb6-082c-491d-b50d-d4d9eab16e7a")
+	)
+	(wire
+		(pts
+			(xy 453.39 17.78) (xy 492.76 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48582d78-ad8b-42a6-92df-b7693d3f7814")
+	)
+	(wire
+		(pts
+			(xy 402.59 74.93) (xy 415.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab7e58c-18fe-4617-9f1e-e4e8f589b685")
+	)
+	(wire
+		(pts
 			(xy 125.73 71.12) (xy 125.73 60.96)
 		)
 		(stroke
@@ -6000,6 +7320,46 @@
 			(type default)
 		)
 		(uuid "4f546f41-f5ae-4e36-b6fb-bb05ec6305ab")
+	)
+	(wire
+		(pts
+			(xy 453.39 33.02) (xy 466.09 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe05006-f920-4503-a107-43cca045d650")
+	)
+	(wire
+		(pts
+			(xy 351.79 17.78) (xy 364.49 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a6b4c6-e50a-4452-a478-05d8153e1cb6")
+	)
+	(wire
+		(pts
+			(xy 175.26 43.18) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c744ee-75ee-41e6-aba0-176153105075")
+	)
+	(wire
+		(pts
+			(xy 185.42 33.02) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5204e129-32a5-4a70-b256-2ece217246fa")
 	)
 	(wire
 		(pts
@@ -6023,6 +7383,46 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 46.99) (xy 351.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7781b7-a159-4cc2-8565-19439e05b9b0")
+	)
+	(wire
+		(pts
+			(xy 193.04 17.78) (xy 200.66 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c83ff3f-4422-453e-aaa7-7db861e24e19")
+	)
+	(wire
+		(pts
+			(xy 389.89 74.93) (xy 402.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d63a2a6-6f28-4d2e-b79a-7f09104db488")
+	)
+	(wire
+		(pts
+			(xy 345.44 6.35) (xy 345.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0db79a-4de9-4c90-a61f-b5dfad3de596")
+	)
+	(wire
+		(pts
 			(xy 67.31 31.75) (xy 67.31 35.56)
 		)
 		(stroke
@@ -6030,6 +7430,16 @@
 			(type default)
 		)
 		(uuid "6124b397-abb6-478c-ac51-bfe9a5460b48")
+	)
+	(wire
+		(pts
+			(xy 377.19 46.99) (xy 389.89 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61857a8c-c553-4b14-a1eb-76d210ffdec6")
 	)
 	(wire
 		(pts
@@ -6043,6 +7453,46 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 85.09) (xy 459.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ecdf24-026c-450c-8f67-13663a90646e")
+	)
+	(wire
+		(pts
+			(xy 339.09 85.09) (xy 345.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64630c2a-eafb-4a7e-af31-560d4eeae15e")
+	)
+	(wire
+		(pts
+			(xy 466.09 60.96) (xy 492.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6567b493-e7dc-47a3-921b-4cae51d268b9")
+	)
+	(wire
+		(pts
+			(xy 427.99 17.78) (xy 440.69 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cb0d2e-c1ed-4d47-a211-782a2b7f3c7f")
+	)
+	(wire
+		(pts
 			(xy 149.86 86.36) (xy 163.83 86.36)
 		)
 		(stroke
@@ -6050,6 +7500,16 @@
 			(type default)
 		)
 		(uuid "698ba207-6951-4fd5-b08c-9316498ec0f6")
+	)
+	(wire
+		(pts
+			(xy 185.42 50.8) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b15af29-6f29-426d-831d-3f099cc2edb5")
 	)
 	(wire
 		(pts
@@ -6073,6 +7533,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 60.96) (xy 389.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769ba0ec-da7b-4a19-bbcf-b069984b66b0")
+	)
+	(wire
+		(pts
 			(xy 52.07 146.05) (xy 63.5 146.05)
 		)
 		(stroke
@@ -6090,6 +7560,26 @@
 			(type default)
 		)
 		(uuid "7747ebab-f8e4-4860-972e-501dedc87896")
+	)
+	(wire
+		(pts
+			(xy 421.64 6.35) (xy 421.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b94154-52b0-42a3-b95a-f53a50527d23")
+	)
+	(wire
+		(pts
+			(xy 447.04 6.35) (xy 447.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7981707b-0960-4537-929a-4d06860ace82")
 	)
 	(wire
 		(pts
@@ -6113,6 +7603,46 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 33.02) (xy 453.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a840db1-b020-42d1-9047-2f1e2fe4812f")
+	)
+	(wire
+		(pts
+			(xy 185.42 17.78) (xy 193.04 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad17d6f-88de-45f5-b6c4-b3532250255b")
+	)
+	(wire
+		(pts
+			(xy 241.3 38.1) (xy 245.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3140e6-a6f6-48c8-a678-b284326fe549")
+	)
+	(wire
+		(pts
+			(xy 185.42 21.59) (xy 185.42 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e663a9f-c42e-48d3-a977-f332d464ff24")
+	)
+	(wire
+		(pts
 			(xy 149.86 19.05) (xy 161.29 19.05)
 		)
 		(stroke
@@ -6120,6 +7650,26 @@
 			(type default)
 		)
 		(uuid "7eb66f93-4332-4e09-81f5-0f5ca04f037d")
+	)
+	(wire
+		(pts
+			(xy 351.79 85.09) (xy 356.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b29690-1088-4aeb-b32b-cbf0cebc42aa")
+	)
+	(wire
+		(pts
+			(xy 351.79 33.02) (xy 364.49 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8353d0ac-4174-4949-a6cf-da6cf505179c")
 	)
 	(wire
 		(pts
@@ -6143,6 +7693,36 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 60.96) (xy 453.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b13ba09-857b-4e0c-8333-4598da0ed815")
+	)
+	(wire
+		(pts
+			(xy 241.3 17.78) (xy 241.3 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f588b4b-7991-4e23-b9b6-1e8221d2fc0d")
+	)
+	(wire
+		(pts
+			(xy 434.34 6.35) (xy 434.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fff3f66-2b79-4492-a52b-657bc43bdf55")
+	)
+	(wire
+		(pts
 			(xy 67.31 27.94) (xy 67.31 31.75)
 		)
 		(stroke
@@ -6150,6 +7730,66 @@
 			(type default)
 		)
 		(uuid "90a22fb6-e301-40a7-aa16-28f5f4c85ede")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91348414-39fa-4bf7-9b88-7b4f86263516")
+	)
+	(wire
+		(pts
+			(xy 339.09 33.02) (xy 351.79 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954cf47b-26d0-4882-8a33-064c9964b369")
+	)
+	(wire
+		(pts
+			(xy 466.09 85.09) (xy 472.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ed6bbf-f843-4173-a05f-71560056b797")
+	)
+	(wire
+		(pts
+			(xy 415.29 85.09) (xy 421.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970c06f7-e427-4ac0-88b4-8ba30e936300")
+	)
+	(wire
+		(pts
+			(xy 415.29 74.93) (xy 427.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9748ee12-9715-41cf-8b9c-97cef4f503c1")
+	)
+	(wire
+		(pts
+			(xy 364.49 17.78) (xy 377.19 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986c3d89-482c-4303-9007-06c6ac1f5a55")
 	)
 	(wire
 		(pts
@@ -6173,6 +7813,26 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 31.75) (xy 200.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b67f07b-89ec-423d-b1cc-63bc797ff3e1")
+	)
+	(wire
+		(pts
+			(xy 377.19 74.93) (xy 389.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea4786d-626c-4b49-a44d-075230c49d5b")
+	)
+	(wire
+		(pts
 			(xy 63.5 146.05) (xy 63.5 148.59)
 		)
 		(stroke
@@ -6180,6 +7840,16 @@
 			(type default)
 		)
 		(uuid "9fb72f9a-e292-4659-a5f2-6127a6b7f77a")
+	)
+	(wire
+		(pts
+			(xy 351.79 60.96) (xy 364.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e56f26-c449-44da-91a1-fa9ab1fd5445")
 	)
 	(wire
 		(pts
@@ -6193,6 +7863,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 49.53) (xy 175.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4383ce4-179d-4bb9-8877-24a73f0d9b5a")
+	)
+	(wire
+		(pts
+			(xy 364.49 74.93) (xy 377.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56a770f-6fc1-4627-bcb4-68c17a00eab5")
+	)
+	(wire
+		(pts
 			(xy 156.21 185.42) (xy 165.1 185.42)
 		)
 		(stroke
@@ -6200,6 +7890,16 @@
 			(type default)
 		)
 		(uuid "a6533b65-c41d-4206-a91f-c354d11bf139")
+	)
+	(wire
+		(pts
+			(xy 415.29 17.78) (xy 427.99 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f4cb11-7171-466e-850b-8ba1fdba2360")
 	)
 	(wire
 		(pts
@@ -6243,6 +7943,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 6.35) (xy 356.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b61fe2-5bd2-47f2-af1f-fe91dc5f6c83")
+	)
+	(wire
+		(pts
 			(xy 152.4 185.42) (xy 156.21 185.42)
 		)
 		(stroke
@@ -6250,6 +7960,26 @@
 			(type default)
 		)
 		(uuid "b373ac8f-3cf0-41a8-bca2-fdbb0f4bead5")
+	)
+	(wire
+		(pts
+			(xy 415.29 33.02) (xy 427.99 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b655ed55-e1a2-4d5e-910b-dbb801107779")
+	)
+	(wire
+		(pts
+			(xy 453.39 46.99) (xy 466.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b721d609-626a-4f50-895c-7623a5ee3251")
 	)
 	(wire
 		(pts
@@ -6273,6 +8003,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 6.35) (xy 383.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8aec920-58c7-49e4-909b-bdcdb5c9c474")
+	)
+	(wire
+		(pts
 			(xy 88.9 96.52) (xy 88.9 99.06)
 		)
 		(stroke
@@ -6280,6 +8020,16 @@
 			(type default)
 		)
 		(uuid "bb3fd512-0937-4ab8-9645-7d1f6bc68acd")
+	)
+	(wire
+		(pts
+			(xy 215.9 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd61be2-81b3-4754-ab8a-6a909c9ba0b1")
 	)
 	(wire
 		(pts
@@ -6303,6 +8053,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 50.8) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1992287-0253-466a-b543-54cca28c22f3")
+	)
+	(wire
+		(pts
 			(xy 105.41 45.72) (xy 118.11 45.72)
 		)
 		(stroke
@@ -6310,6 +8070,56 @@
 			(type default)
 		)
 		(uuid "c3029b63-4870-4667-92d4-8a9e5572795c")
+	)
+	(wire
+		(pts
+			(xy 389.89 60.96) (xy 402.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3336849-b4e8-4088-b141-7ce2fda5be27")
+	)
+	(wire
+		(pts
+			(xy 213.36 43.18) (xy 215.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ee634c-5f9a-4722-98a1-614789a120a3")
+	)
+	(wire
+		(pts
+			(xy 402.59 17.78) (xy 415.29 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c685cb5f-21fc-49e2-a680-530dea17825e")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a6770d-a7ff-4efa-8108-eebabed70450")
+	)
+	(wire
+		(pts
+			(xy 226.06 21.59) (xy 226.06 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fbf0f6-3ae8-4db3-b05c-a41966bf3851")
 	)
 	(wire
 		(pts
@@ -6323,6 +8133,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 46.99) (xy 402.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c889d160-357d-476c-a00a-34850fe51797")
+	)
+	(wire
+		(pts
 			(xy 68.58 166.37) (xy 68.58 168.91)
 		)
 		(stroke
@@ -6333,6 +8153,36 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 6.35) (xy 370.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca955273-09fc-4bbf-b102-3b42f23f2c94")
+	)
+	(wire
+		(pts
+			(xy 364.49 33.02) (xy 377.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6a7c33-a3ef-42e4-adc7-8d786e692e76")
+	)
+	(wire
+		(pts
+			(xy 377.19 85.09) (xy 383.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8770a4-f94a-453b-beef-8366acb6b385")
+	)
+	(wire
+		(pts
 			(xy 137.16 96.52) (xy 128.27 96.52)
 		)
 		(stroke
@@ -6340,6 +8190,36 @@
 			(type default)
 		)
 		(uuid "cd4ffc04-c282-4835-a221-6ee8eb01a89b")
+	)
+	(wire
+		(pts
+			(xy 193.04 38.1) (xy 200.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce52af6e-5d66-4227-bd1f-36f4c2627352")
+	)
+	(wire
+		(pts
+			(xy 215.9 43.18) (xy 215.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8e96c9-8bd3-4154-a728-217801bc9908")
+	)
+	(wire
+		(pts
+			(xy 364.49 46.99) (xy 377.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10c4f8e-2777-4b99-a274-e3aeca54ef49")
 	)
 	(wire
 		(pts
@@ -6363,6 +8243,86 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 46.99) (xy 415.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6730db2-0bf4-4910-95ca-f3fbee26351b")
+	)
+	(wire
+		(pts
+			(xy 351.79 74.93) (xy 364.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c78907-dddf-42f0-a2d0-20c270da4b70")
+	)
+	(wire
+		(pts
+			(xy 396.24 6.35) (xy 396.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d872a464-de07-4012-930a-f1dc62c8f99a")
+	)
+	(wire
+		(pts
+			(xy 415.29 60.96) (xy 427.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da976aab-ffff-4915-8ef3-bd2f4d4a3ad7")
+	)
+	(wire
+		(pts
+			(xy 233.68 38.1) (xy 241.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2e976c-7ae3-4299-9397-d4743104014a")
+	)
+	(wire
+		(pts
+			(xy 193.04 17.78) (xy 193.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9b90d6-5f67-471a-bcf7-f9645d826146")
+	)
+	(wire
+		(pts
+			(xy 241.3 17.78) (xy 247.65 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de14c548-fac8-4a29-b59a-f8e275cb5b60")
+	)
+	(wire
+		(pts
+			(xy 389.89 33.02) (xy 402.59 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7a5298-d08e-4f14-a99b-e1cee2af7a3a")
+	)
+	(wire
+		(pts
 			(xy 67.31 31.75) (xy 77.47 31.75)
 		)
 		(stroke
@@ -6370,6 +8330,36 @@
 			(type default)
 		)
 		(uuid "df9e120a-8e8f-4329-9ea4-45ce513e3c91")
+	)
+	(wire
+		(pts
+			(xy 402.59 33.02) (xy 415.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e031bda1-7568-449a-beba-8f1a7c8027cc")
+	)
+	(wire
+		(pts
+			(xy 427.99 85.09) (xy 434.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f85fb9-ab38-4d5b-8e48-db0de349fa52")
+	)
+	(wire
+		(pts
+			(xy 440.69 85.09) (xy 447.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15299a8-b4e3-4367-806a-cb0ae7092620")
 	)
 	(wire
 		(pts
@@ -6383,6 +8373,26 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 46.99) (xy 440.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65c455d-c288-48a8-be97-562e67816384")
+	)
+	(wire
+		(pts
+			(xy 440.69 17.78) (xy 453.39 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb798ce1-8d84-49a3-95fb-947c610abaab")
+	)
+	(wire
+		(pts
 			(xy 59.69 148.59) (xy 63.5 148.59)
 		)
 		(stroke
@@ -6390,6 +8400,16 @@
 			(type default)
 		)
 		(uuid "eeacea3f-43ba-430b-b743-846c2126efad")
+	)
+	(wire
+		(pts
+			(xy 200.66 38.1) (xy 204.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef87b8ef-3ee5-4cdc-9135-d2f2c67a658e")
 	)
 	(wire
 		(pts
@@ -6403,6 +8423,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 85.09) (xy 396.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a8227a-7795-4aa2-b42d-2a0643e31526")
+	)
+	(wire
+		(pts
 			(xy 68.58 175.26) (xy 83.82 175.26)
 		)
 		(stroke
@@ -6413,6 +8443,46 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 74.93) (xy 440.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5466536-f335-4b50-99e4-c89f2d7aa5fe")
+	)
+	(wire
+		(pts
+			(xy 166.37 50.8) (xy 175.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cbcacb-08e6-499a-a18f-64412c2a2b71")
+	)
+	(wire
+		(pts
+			(xy 453.39 74.93) (xy 466.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c396f1-ca71-4817-ba3d-f81bf2e9594f")
+	)
+	(wire
+		(pts
+			(xy 233.68 17.78) (xy 241.3 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb04b16c-cbf5-434b-bc47-80df7f975711")
+	)
+	(wire
+		(pts
 			(xy 63.5 148.59) (xy 63.5 154.94)
 		)
 		(stroke
@@ -6420,6 +8490,28 @@
 			(type default)
 		)
 		(uuid "ff71f592-7840-4c3e-87b8-94c73e9c74cd")
+	)
+	(global_label "4"
+		(shape input)
+		(at 383.54 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "009b1c64-a9dc-4604-ac8b-fb740a94d205")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.54 2.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LCD_CS"
 		(shape input)
@@ -6681,6 +8773,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EX_5V"
+		(shape input)
+		(at 245.11 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1135be11-b7a4-4697-abc3-411cb75af7ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.7194 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7015,6 +9129,28 @@
 			)
 		)
 	)
+	(global_label "7"
+		(shape input)
+		(at 421.64 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26c0f523-9264-4dcd-9f72-91903e9aa903")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 421.64 2.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VIBRATION"
 		(shape input)
 		(at 127 115.57 0)
@@ -7059,6 +9195,28 @@
 			)
 		)
 	)
+	(global_label "POWER_EX"
+		(shape input)
+		(at 213.36 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a645cad-eef1-48d6-b752-c1337f2c8c9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5778 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GP18"
 		(shape input)
 		(at 105.41 50.8 0)
@@ -7081,6 +9239,28 @@
 			)
 		)
 	)
+	(global_label "11"
+		(shape input)
+		(at 472.44 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d47481e-1752-46c0-8799-f6874cf40627")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 472.44 0.9458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GP19"
 		(shape input)
 		(at 105.41 20.32 0)
@@ -7094,6 +9274,50 @@
 		(uuid "2e994389-529e-4e00-8bb4-c7aec1f8aeb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.3542 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "2"
+		(shape input)
+		(at 356.87 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30e6885b-1efa-4547-825e-3fcb79f0ab46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 356.87 2.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "9"
+		(shape input)
+		(at 447.04 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32da319a-b44d-4e5e-bba6-50b30f960032")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 447.04 2.1553 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,6 +9406,28 @@
 		(uuid "34e37b64-5b4b-4cd5-ae2a-42dbc15b7016")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.4237 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 247.65 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "356dcc25-81f4-4102-ae3c-6be29e8c1fe4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9333 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,6 +9591,28 @@
 			)
 		)
 	)
+	(global_label "3"
+		(shape input)
+		(at 370.84 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42496be2-c798-491c-93b4-700ffc7d639f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.84 2.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GP23"
 		(shape input)
 		(at 149.86 31.75 0)
@@ -7451,6 +9719,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B"
+		(shape input)
+		(at 492.76 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a6da933-8454-4aba-8e85-857d9bd98017")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 497.0152 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7697,6 +9987,28 @@
 			)
 		)
 	)
+	(global_label "1"
+		(shape input)
+		(at 345.44 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "600b4ae1-b7a7-4b60-973a-2dd71f2a9edd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 2.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT0"
 		(shape input)
 		(at 97.79 176.53 90)
@@ -7798,6 +10110,28 @@
 		(uuid "63aec7b6-95ce-4851-b213-ddd9fabd99d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.6804 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C"
+		(shape input)
+		(at 492.76 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64ccc3b3-3393-4e68-b431-24152fe1fbf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 497.0152 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,6 +10273,28 @@
 			)
 		)
 	)
+	(global_label "6"
+		(shape input)
+		(at 408.94 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7342a12c-35bf-4563-8861-e221db695aa6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 408.94 2.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "T_DOWN"
 		(shape input)
 		(at 96.52 125.73 180)
@@ -7983,6 +10339,28 @@
 			)
 		)
 	)
+	(global_label "D"
+		(shape input)
+		(at 492.76 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75f97262-f707-4bdc-b90a-e7ef34404807")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 497.0152 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ID_SD"
 		(shape input)
 		(at 149.86 88.9 0)
@@ -8018,6 +10396,28 @@
 		(uuid "7aedb1e2-acf4-40c9-aaf4-281f8b3eea7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.1947 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "E"
+		(shape input)
+		(at 492.76 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c0cb6ba-3a74-41cb-8314-5fcded65224a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 496.8942 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,6 +10638,28 @@
 		(uuid "8726b35f-dfea-452b-89ce-ba209172b862")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 156.5947 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5"
+		(shape input)
+		(at 396.24 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b9cb83a-eb2f-4740-946a-305ffbe2ada3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 396.24 2.1553 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,6 +11021,28 @@
 			)
 		)
 	)
+	(global_label "POWER_EX"
+		(shape input)
+		(at 172.72 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0c401b1-95ab-4288-b430-6b108d7fa665")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.9378 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EX_5V"
 		(shape input)
 		(at 137.16 34.29 180)
@@ -8731,6 +11175,28 @@
 			)
 		)
 	)
+	(global_label "EX_3V"
+		(shape input)
+		(at 204.47 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b99c4a92-9587-4e47-ad2f-cf025b6ad266")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.0794 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_SCK"
 		(shape input)
 		(at 149.86 83.82 0)
@@ -8810,6 +11276,50 @@
 		(uuid "bcbb2ff0-eb41-41cf-9d72-cc654963e673")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 156.5947 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A"
+		(shape input)
+		(at 492.76 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c03339e5-61cb-432f-8e9f-1da3e26aa9a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 496.8338 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "8"
+		(shape input)
+		(at 434.34 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c09ce9cd-6751-4863-ac7c-b1adce740384")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 434.34 2.1553 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,6 +11606,28 @@
 		(uuid "ce1894f4-9248-467c-9c59-33212c475462")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.0799 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V"
+		(shape input)
+		(at 207.01 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf4e07b9-a769-4cdd-9f97-f9f8a9cf6ed5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.2933 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,6 +12055,28 @@
 			)
 		)
 	)
+	(global_label "10"
+		(shape input)
+		(at 459.74 6.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa229a77-25aa-4bbd-96b3-03a1a493d892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 459.74 0.9458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x16")
 		(at 100.33 38.1 180)
@@ -9628,6 +12182,212 @@
 			(project ""
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b25d14-05d3-4efa-9997-c011ac7bce6c")
+		(property "Reference" "#PWR028"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be742826-ff51-4f3d-a821-fa6d25749b9e")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01c3eaa0-4bc4-40df-a948-accabe8ed2fb")
+		(property "Reference" "R8"
+			(at 177.8 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 177.8 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b66866e-7083-4f22-9feb-6561a1ea21c0")
+		)
+		(pin "1"
+			(uuid "1324a318-dcd6-4648-ace7-3681bf3515b1")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 226.06 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02f6c035-cd98-4997-9d09-60a0e4f9ff72")
+		(property "Reference" "R11"
+			(at 228.6 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 228.6 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94ea68f9-673b-4702-a11c-a87767203157")
+		)
+		(pin "1"
+			(uuid "647bbbc9-e2c3-416c-967c-85d32743bb44")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9770,6 +12530,636 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 377.19 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0da45165-6d5a-4b89-bbaf-a32d0fbed650")
+		(property "Reference" "SW24"
+			(at 378.46 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 378.46 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 377.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afc2d8d2-2c1a-4c2d-8859-eff5b28280ac")
+		)
+		(pin "2"
+			(uuid "591f4abe-1072-4f1e-a31d-47831dc12a25")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 402.59 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eafa131-b86a-4324-9c5c-341916bb659d")
+		(property "Reference" "SW48"
+			(at 403.86 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 403.86 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 402.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 402.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "033e7ff7-d046-4e61-99d6-645bb6a4e547")
+		)
+		(pin "2"
+			(uuid "53cfd630-055d-4a9a-9816-c3b677709dbd")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 440.69 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10d457cf-ccbf-43e8-9196-38fecd1de791")
+		(property "Reference" "SW29"
+			(at 441.96 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 441.96 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 440.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a43ee6c9-97da-4225-a60b-83bb42eda572")
+		)
+		(pin "2"
+			(uuid "1f04ff2d-513b-4e98-acde-66f044efcbbc")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 339.09 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16cbe607-5a44-4bfb-b57c-8e5e25ae363b")
+		(property "Reference" "SW10"
+			(at 340.36 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 340.36 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 339.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c70e0c-ad7c-4ec4-b97d-054b0747fa50")
+		)
+		(pin "2"
+			(uuid "80a38f56-be6a-4428-8669-d6f38276fa86")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 453.39 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19671898-db94-4581-950f-e57c396eb012")
+		(property "Reference" "SW41"
+			(at 454.66 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 454.66 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 453.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 453.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b83b8ac6-614f-4788-8276-90f6163ea0a9")
+		)
+		(pin "2"
+			(uuid "aea0393b-33ec-4559-bc8c-b9a15514c4e1")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 440.69 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a554b38-76d9-4248-a7a2-527295799012")
+		(property "Reference" "SW8"
+			(at 441.96 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 441.96 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 440.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c274b0af-a043-4eb4-8289-564dbcaabfc7")
+		)
+		(pin "2"
+			(uuid "7111dd95-7a5a-4bcc-8197-662464bbc911")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 364.49 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d34b94e-684c-46ce-9ca1-e91f7f4c28c0")
+		(property "Reference" "SW23"
+			(at 365.76 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 365.76 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 364.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73ecbf23-6b30-47ec-b77c-3884b15cf41b")
+		)
+		(pin "2"
+			(uuid "d5a99895-898e-4678-b5cc-cc13fcf63d74")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 415.29 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2831f002-6dde-4794-b2fb-1a8ff1fae1d8")
+		(property "Reference" "SW16"
+			(at 416.56 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 416.56 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 415.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "533b9afe-4e2f-499e-bd85-883b4cf51ac4")
+		)
+		(pin "2"
+			(uuid "7b0f90ed-d5cc-4fe4-b06e-6d3064f44b05")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 389.89 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290a2ad8-3a09-4a42-905c-8abc66236538")
+		(property "Reference" "SW4"
+			(at 391.16 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 391.16 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 389.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46fc817a-fb1d-4f5a-bf89-6e598f3bc0b2")
+		)
+		(pin "2"
+			(uuid "43f3d272-e263-49ae-ba1d-7906272bc20f")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 81.28 31.75 90)
 		(unit 1)
@@ -9900,6 +13290,76 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 241.3 27.94 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1d76c5-a88e-4ba9-a6d6-761721c096af")
+		(property "Reference" "JP2"
+			(at 243.84 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 243.84 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 241.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 241.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7a9081a-c79f-4a91-afcc-c048ecc317c3")
+		)
+		(pin "1"
+			(uuid "95f3175c-2408-4bf7-a983-e04e2bcfdc24")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -10129,6 +13589,443 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 194.31 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c971a5-59da-4599-840d-fe704e1afb77")
+		(property "Reference" "#PWR027"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02bda0f3-e745-4ba5-94a6-b851a7b13566")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 402.59 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3322bc5f-650a-4238-b2d4-d050a9f83d75")
+		(property "Reference" "SW37"
+			(at 403.86 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 403.86 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 402.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 402.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e70b13de-208d-4287-a35c-06abec672424")
+		)
+		(pin "2"
+			(uuid "ea4aedc3-6d7b-42db-9715-85ff4877bb00")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 402.59 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "355d343f-66de-44d3-84a1-ef2b4b5e473e")
+		(property "Reference" "SW15"
+			(at 403.86 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 403.86 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 402.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 402.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a7b0cce-bfb9-45d3-b559-a6e4fd8e0056")
+		)
+		(pin "2"
+			(uuid "d4b02be8-a94e-4c42-8af5-5a5b00fd0b9d")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 215.9 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e3216b-e391-4194-8c77-4dc51a237293")
+		(property "Reference" "R10"
+			(at 218.44 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 218.44 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6402fe39-00f6-4bba-a7f9-c2184ed585aa")
+		)
+		(pin "1"
+			(uuid "103a932b-19c1-44bf-b4c4-ee7be2239d26")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 453.39 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38d6ddfa-37d5-4ac0-8545-f9e232f51606")
+		(property "Reference" "SW30"
+			(at 454.66 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 454.66 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 453.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 453.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa3d928e-4669-4803-9644-76f423b7f84d")
+		)
+		(pin "2"
+			(uuid "55d0b986-0617-4523-8211-98df96741d44")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO4842")
+		(at 223.52 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f314041-839f-4e82-9b61-bc5e69d57970")
+		(property "Reference" "Q3"
+			(at 229.87 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO4842"
+			(at 229.87 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 228.6 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+			(at 228.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.7A Id, 30V Vds, Dual N-Channel MOSFET, 21mOhm Ron, SO-8"
+			(at 223.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "c7c87d39-ee4a-420b-8a16-f2e0ae218d71")
+		)
+		(pin "6"
+			(uuid "0e9687db-4208-4285-84fe-9cd5c349fdcd")
+		)
+		(pin "7"
+			(uuid "5bb99282-7cf1-4b4b-ab02-55b3e327dd94")
+		)
+		(pin "1"
+			(uuid "e39ddad9-09e3-4a0a-bd4c-32ec13e77fe1")
+		)
+		(pin "5"
+			(uuid "b5c42869-ed36-45de-8a56-e196deb9271a")
+		)
+		(pin "2"
+			(uuid "6b3ce88f-8e78-4e13-a289-47ca1d4d1486")
+		)
+		(pin "4"
+			(uuid "f37e0a6a-6501-4a6c-a24d-9d8bd92b948c")
+		)
+		(pin "3"
+			(uuid "a0d965eb-7970-43f5-9215-ff9624b228f8")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 110.49 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10254,6 +14151,146 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 440.69 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44131437-0604-4ca0-94c9-2b0d62a20670")
+		(property "Reference" "SW40"
+			(at 441.96 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 441.96 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 440.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcb5e5ae-0d6d-4b54-9bf9-ed7b7aff471f")
+		)
+		(pin "2"
+			(uuid "93f819ab-42ca-4198-919b-38a601b4ca18")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 402.59 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4426ddbb-c5a1-42b2-b401-ec9c0309da4c")
+		(property "Reference" "SW5"
+			(at 403.86 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 403.86 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 402.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 402.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae548b36-1bf0-473b-bd1b-a167ce708c6c")
+		)
+		(pin "2"
+			(uuid "2181d2bd-5ddc-4596-a4cc-d63e639e16b1")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -10691,6 +14728,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 377.19 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5206697e-23bc-4fa9-9818-6da82114a249")
+		(property "Reference" "SW46"
+			(at 378.46 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 378.46 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 377.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a806a2f8-103f-42e3-a361-376a8e8804d2")
+		)
+		(pin "2"
+			(uuid "afb06b61-3f85-4ad1-b4e8-73744f5fccb0")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 427.99 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5314e407-f0fb-4b94-8e37-4709d6e25817")
+		(property "Reference" "SW28"
+			(at 429.26 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 429.26 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 427.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ad5cd9-1104-42ec-8aa5-5e4d326597a4")
+		)
+		(pin "2"
+			(uuid "595c8344-7017-4def-9437-3ca806497c4b")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 415.29 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "579f34e8-d77a-4685-8b52-fbb09a133b98")
+		(property "Reference" "SW38"
+			(at 416.56 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 416.56 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 415.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "927b775d-972c-447f-b939-6d267b2aeb3e")
+		)
+		(pin "2"
+			(uuid "1b64d86d-54e4-4da2-b11a-88527459a2c9")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 31.75 156.21 0)
 		(unit 1)
@@ -10798,6 +15045,146 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 351.79 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b20d2c6-bb64-4494-ab47-d86325e4154a")
+		(property "Reference" "SW22"
+			(at 353.06 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 353.06 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 351.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb8efce5-36d0-4e24-87a3-52db3ee09aa5")
+		)
+		(pin "2"
+			(uuid "4f7b149e-3c4d-4e04-8f78-9820bb2c3a12")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 339.09 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eda07bc-a8bc-4c24-a7bd-0240391c8f69")
+		(property "Reference" "SW21"
+			(at 340.36 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 340.36 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 339.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cad56a0-dab5-49c9-aab9-170944c19e67")
+		)
+		(pin "2"
+			(uuid "d4473b5e-95f0-4473-8791-21a5a9d952b2")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -10976,6 +15363,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60159689-d2b2-4a2a-a734-66e597ddc4bf")
+		(property "Reference" "#PWR026"
+			(at 166.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ece29d7-c031-49d5-a4d4-988a4c53ba6a")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 427.99 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ee85c7-c930-44e2-98cf-a45ecc034e94")
+		(property "Reference" "SW50"
+			(at 429.26 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 429.26 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 427.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52431e15-194e-4e4e-81b5-15e0ac15ee40")
+		)
+		(pin "2"
+			(uuid "5dc48284-9f38-4044-b0ed-95b75db3632e")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 31.75 97.79 0)
 		(unit 1)
@@ -11090,6 +15613,142 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 234.95 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67932609-7366-4e36-82d7-fe874ffb6a18")
+		(property "Reference" "#PWR029"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f40b3b50-d7ae-44f6-98ac-774cf3fb0f57")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 339.09 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69c9706f-f3d1-4429-a8b3-c331d964cf0b")
+		(property "Reference" "SW43"
+			(at 340.36 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 340.36 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485f3cf7-dad7-408a-8152-0253557a22b7")
+		)
+		(pin "2"
+			(uuid "af701c49-4e6a-4fac-ae7e-05513d4a350b")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 24.13 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11149,6 +15808,146 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 377.19 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aaa8328-6109-40d4-9e20-5b49d8fc5c2d")
+		(property "Reference" "SW13"
+			(at 378.46 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 378.46 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 377.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f42777c-e4f3-4b9a-a7f3-3173a321b80a")
+		)
+		(pin "2"
+			(uuid "1e606df0-1b5d-42ad-b897-bee3a33413aa")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 466.09 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cfe83b7-5ed1-4745-b9d0-317fc90f621d")
+		(property "Reference" "SW42"
+			(at 467.36 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 467.36 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 466.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46a6a2ff-717c-43de-a4de-6254a2691000")
+		)
+		(pin "2"
+			(uuid "1f3f1f8b-1eca-4310-b0b3-f0f01a2ecb63")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -11222,6 +16021,76 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
+		(at 466.09 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70fbb67e-715c-4a72-b36d-e5ac5ce4edb0")
+		(property "Reference" "SW31"
+			(at 467.36 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 467.36 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 466.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b5fc4d8-c09a-44c4-8f2e-65c0ed6b50d5")
+		)
+		(pin "2"
+			(uuid "e66334de-7d0c-408c-b64a-899ac92e2312")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
 		(at 97.79 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11285,6 +16154,76 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "SW_BOOT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 427.99 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7332686d-e4e4-4d95-995b-94d568aabf7f")
+		(property "Reference" "SW7"
+			(at 429.26 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 429.26 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 427.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f93a0254-ae3d-44be-9ce3-8180228db239")
+		)
+		(pin "2"
+			(uuid "6a506361-c14d-4721-bdc4-2394f432733e")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -11620,6 +16559,237 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 389.89 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79685d97-1936-43f7-a273-216bc150f238")
+		(property "Reference" "SW36"
+			(at 391.16 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 391.16 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 389.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a97f0a3-4d79-4e32-b5d0-d7c688ca9b3a")
+		)
+		(pin "2"
+			(uuid "a9ae6acd-8665-4844-a06d-f0bfb12de5f1")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO4842")
+		(at 231.14 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f96ce2-8797-4576-8260-4433592ef018")
+		(property "Reference" "Q4"
+			(at 237.49 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO4842"
+			(at 237.49 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 236.22 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.7A Id, 30V Vds, Dual N-Channel MOSFET, 21mOhm Ron, SO-8"
+			(at 231.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "2a753ac3-9202-4963-8b89-b00cf3476da1")
+		)
+		(pin "6"
+			(uuid "0e9687db-4208-4285-84fe-9cd5c349fdce")
+		)
+		(pin "7"
+			(uuid "2dd499f6-9187-4370-a856-086b59415b51")
+		)
+		(pin "1"
+			(uuid "6d6a679e-60b6-4bff-bd1d-a634abb8b480")
+		)
+		(pin "5"
+			(uuid "b5c42869-ed36-45de-8a56-e196deb9271b")
+		)
+		(pin "2"
+			(uuid "53236017-4573-4115-9bde-6e4ce9892533")
+		)
+		(pin "4"
+			(uuid "f37e0a6a-6501-4a6c-a24d-9d8bd92b948d")
+		)
+		(pin "3"
+			(uuid "a0d965eb-7970-43f5-9215-ff9624b228f9")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 339.09 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88296926-56c9-4120-b5e7-03c7295b6db1")
+		(property "Reference" "SW32"
+			(at 340.36 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 340.36 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 339.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "412ad145-97a9-4edc-a1b8-572ce22d096b")
+		)
+		(pin "2"
+			(uuid "02aa2dce-dc39-4689-a1c0-c0c65bf8d8a5")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 91.44 0)
 		(unit 1)
@@ -11680,6 +16850,76 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 200.66 27.94 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c6169c4-9b0e-4fbd-851c-41ee262d8a48")
+		(property "Reference" "JP1"
+			(at 203.2 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 203.2 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "743dfc90-72e6-4e92-9ccd-f63a994f9416")
+		)
+		(pin "1"
+			(uuid "60f753d4-dcf4-4ea4-8080-0b09f1ce6e4a")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -11818,6 +17058,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 402.59 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c37d64-aa29-4df0-8e0e-d5481e8ec5ec")
+		(property "Reference" "SW26"
+			(at 403.86 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 403.86 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 402.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 402.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b43d4f02-71d2-4d53-af1c-913c7dd73313")
+		)
+		(pin "2"
+			(uuid "2d55765f-6c57-4a55-852c-48fa78fa0e7a")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 154.94 138.43 0)
 		(unit 1)
@@ -11882,6 +17192,377 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO4842")
+		(at 182.88 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f744036-3229-4ef2-b612-f0b3e795d92f")
+		(property "Reference" "Q1"
+			(at 189.23 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO4842"
+			(at 189.23 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 187.96 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.7A Id, 30V Vds, Dual N-Channel MOSFET, 21mOhm Ron, SO-8"
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "65c9f558-d25d-4779-954f-b381563ccc32")
+		)
+		(pin "6"
+			(uuid "0e9687db-4208-4285-84fe-9cd5c349fdcd")
+		)
+		(pin "7"
+			(uuid "69fdd7b5-d702-49c7-a6ee-aba3a313d621")
+		)
+		(pin "1"
+			(uuid "27708fe9-82bd-4336-8855-e8fe986e8ebf")
+		)
+		(pin "5"
+			(uuid "b5c42869-ed36-45de-8a56-e196deb9271a")
+		)
+		(pin "2"
+			(uuid "d8a9aec3-8c79-4ff5-927b-a4186444909d")
+		)
+		(pin "4"
+			(uuid "f37e0a6a-6501-4a6c-a24d-9d8bd92b948c")
+		)
+		(pin "3"
+			(uuid "a0d965eb-7970-43f5-9215-ff9624b228f8")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 377.19 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0edb9ea-3e9f-47d9-84f9-39c7a256592f")
+		(property "Reference" "SW35"
+			(at 378.46 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 378.46 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 377.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be845f90-58d8-446a-813a-229f7caabaa0")
+		)
+		(pin "2"
+			(uuid "89676e3a-8c3d-4c2c-b5e0-740006705201")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 440.69 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0fc63f4-bde1-4907-811e-6011e1adb988")
+		(property "Reference" "SW18"
+			(at 441.96 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 441.96 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 440.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ab6f504-9d8d-4db0-a956-ed3aa607393c")
+		)
+		(pin "2"
+			(uuid "d96df808-f93d-432d-b468-7eb42bde131b")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 185.42 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1c5c53b-00d6-4bbc-b1a0-cf663efd95ee")
+		(property "Reference" "R9"
+			(at 187.96 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 187.96 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 185.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 185.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a7fd021-5f82-49d9-a70b-f12f24086d49")
+		)
+		(pin "1"
+			(uuid "99d54e16-3f12-4a9d-8464-13f33d44ba7c")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 389.89 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ccb162-fac5-43cb-b3b7-5c37ca0d948a")
+		(property "Reference" "SW14"
+			(at 391.16 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 391.16 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 389.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a6d1a29-298e-4638-8bb4-3f9594891b14")
+		)
+		(pin "2"
+			(uuid "424d8431-422a-494d-ae7a-1eaeee1f703b")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -12090,6 +17771,356 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 364.49 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7575eab-def6-4ce1-af18-dea72f1866e6")
+		(property "Reference" "SW2"
+			(at 365.76 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 365.76 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 364.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c740ce83-7261-4237-a7e7-af6a732a2df9")
+		)
+		(pin "2"
+			(uuid "51907125-da44-4c26-b09c-1ae52ccef5a5")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 351.79 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5ff8dce-5851-42d9-87a8-0d41e00da8c6")
+		(property "Reference" "SW11"
+			(at 353.06 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 353.06 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 351.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3088bab9-faf1-45e7-98dd-7a767323eb74")
+		)
+		(pin "2"
+			(uuid "f88da2ad-d2d1-434f-b097-935ba40a0906")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 440.69 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7a142fe-4a82-4b11-979f-c69ea754a493")
+		(property "Reference" "SW51"
+			(at 441.96 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 441.96 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 440.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304c75ad-4e84-4c63-8e29-f66be167dc16")
+		)
+		(pin "2"
+			(uuid "7711d94c-3561-4783-ab55-7dcdfef389cd")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 389.89 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7e7f04c-441c-46e9-8ddc-49d83985f385")
+		(property "Reference" "SW47"
+			(at 391.16 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 391.16 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 389.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e961b7cf-7d30-4e50-9812-da10bd7e2f80")
+		)
+		(pin "2"
+			(uuid "a1e68611-67e8-4b92-b353-c0ceeb9a4e2b")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 427.99 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b80e1d9f-a624-4a96-9320-aebf78cdd9ea")
+		(property "Reference" "SW39"
+			(at 429.26 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 429.26 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 427.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6206d4c9-e524-433a-b06e-2617897eaa88")
+		)
+		(pin "2"
+			(uuid "93c2dc89-7a34-4ddb-97c6-61501019d6b1")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 68.58 171.45 0)
 		(unit 1)
@@ -12154,6 +18185,76 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 415.29 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba35c5a1-c367-40b4-a335-f8307351e0fd")
+		(property "Reference" "SW6"
+			(at 416.56 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 416.56 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 415.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75d1758a-de94-43d0-bfb8-79981ed0a7b9")
+		)
+		(pin "2"
+			(uuid "149ff1b2-bbe8-4aa2-897e-db27bde30211")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -12414,6 +18515,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO4842")
+		(at 190.5 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c482d415-3594-46e4-a540-58b3e161b990")
+		(property "Reference" "Q2"
+			(at 196.85 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO4842"
+			(at 196.85 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 195.58 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+			(at 195.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.7A Id, 30V Vds, Dual N-Channel MOSFET, 21mOhm Ron, SO-8"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "74f970f5-6cc3-45ca-8db9-3f8e9e23ffbd")
+		)
+		(pin "6"
+			(uuid "0e9687db-4208-4285-84fe-9cd5c349fdce")
+		)
+		(pin "7"
+			(uuid "52e1fbd2-33c4-4df4-a3dd-37eeb3e853a7")
+		)
+		(pin "1"
+			(uuid "0b954cae-9bea-4467-a128-69e4d1f1c770")
+		)
+		(pin "5"
+			(uuid "b5c42869-ed36-45de-8a56-e196deb9271b")
+		)
+		(pin "2"
+			(uuid "b85201ff-bed2-4f3c-a7ba-533399c1b838")
+		)
+		(pin "4"
+			(uuid "f37e0a6a-6501-4a6c-a24d-9d8bd92b948d")
+		)
+		(pin "3"
+			(uuid "a0d965eb-7970-43f5-9215-ff9624b228f9")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 154.94 0)
 		(unit 1)
@@ -12546,6 +18738,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 415.29 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca3099a0-97ba-4871-9734-2cbe5725bf15")
+		(property "Reference" "SW27"
+			(at 416.56 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 416.56 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 415.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe68057e-509c-4965-a1e6-d438dd3da03d")
+		)
+		(pin "2"
+			(uuid "70156caf-1d17-4487-9fe3-900734ad4ee7")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 364.49 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca69b947-8ca9-4ab2-8c73-f462d09ae386")
+		(property "Reference" "SW12"
+			(at 365.76 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 365.76 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 364.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15fd9796-73ff-4ff1-a447-706be5c9f786")
+		)
+		(pin "2"
+			(uuid "1d98136c-39b0-49ef-bff6-22f55c3943bd")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 427.99 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb6476d-c14c-49ca-a67a-562de55ba912")
+		(property "Reference" "SW17"
+			(at 429.26 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 429.26 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 427.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f122f102-88eb-4252-9378-c2cfc0921074")
+		)
+		(pin "2"
+			(uuid "c8d94ad9-74df-426d-93a7-63e1421230ec")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 166.37 0)
 		(unit 1)
@@ -12612,6 +19014,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 466.09 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d153ac70-937b-4976-a357-2d3083605790")
+		(property "Reference" "SW53"
+			(at 467.36 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 467.36 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 466.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1006192a-3105-4d14-bb14-54bcec5198c6")
+		)
+		(pin "2"
+			(uuid "5a55149f-7110-41de-980e-41b01ac7eae1")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 45.72 0)
 		(unit 1)
@@ -12672,6 +19144,426 @@
 			(project "mutantc-mainboard"
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 364.49 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d341a747-c81c-4a78-8d56-9c7de41adbd3")
+		(property "Reference" "SW34"
+			(at 365.76 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 365.76 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f5e0695-6224-4ea7-8379-e4f1e9c9c8ce")
+		)
+		(pin "2"
+			(uuid "a2421fbb-f5f5-49b3-bb12-9cdc6b1cb0ec")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 377.19 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3de51d7-d26e-4714-93e8-cfa120690665")
+		(property "Reference" "SW3"
+			(at 378.46 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 378.46 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 377.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2429e7f-8a5a-4659-a87b-7f3c3479854f")
+		)
+		(pin "2"
+			(uuid "46b964c8-2c57-4abd-b148-335080e38218")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 453.39 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6904d65-465f-4bd1-a6a5-dd491e34cff2")
+		(property "Reference" "SW52"
+			(at 454.66 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 454.66 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 453.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 453.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23d60519-6e86-4b15-a9ba-841c88b487b3")
+		)
+		(pin "2"
+			(uuid "3e11ff0c-5857-490f-aada-4d02c1c42841")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 389.89 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d784cc5e-38fe-4322-aac3-feb5ddf0ab00")
+		(property "Reference" "SW25"
+			(at 391.16 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 391.16 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 389.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6fa3c8d-47b2-4636-b141-a77104bd67e0")
+		)
+		(pin "2"
+			(uuid "8878e06c-70d5-4c3e-a9dc-1f7e6582e5b5")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 415.29 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9977b4e-c5b8-4368-82e5-5a18c3c698fa")
+		(property "Reference" "SW49"
+			(at 416.56 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 416.56 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 415.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c256da7-27a8-43c3-8157-7e917e60b3e3")
+		)
+		(pin "2"
+			(uuid "91bfba11-5ac2-462d-9587-7a809cea7676")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 351.79 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da0934c6-0cd5-4b16-80a5-83b33738288d")
+		(property "Reference" "SW33"
+			(at 353.06 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 353.06 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 351.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6a95326-52c1-4f9a-ad7b-75b0c77c0b6b")
+		)
+		(pin "2"
+			(uuid "280341b2-5d5a-4936-8fc8-45b2c87fc8db")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -12950,6 +19842,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 351.79 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e45338a0-6757-43a2-960c-e9468394aece")
+		(property "Reference" "SW1"
+			(at 353.06 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 353.06 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 351.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0bc67e1-82f8-461a-8c69-0b7d5a9c9b4e")
+		)
+		(pin "2"
+			(uuid "6ec3d81e-964b-4a38-b8d6-8023255c232b")
+		)
+		(instances
+			(project ""
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 453.39 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62c936a-5a6f-4449-a6f0-a12091243261")
+		(property "Reference" "SW9"
+			(at 454.66 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 454.66 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 453.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 453.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d7ed57e-3603-44fd-ac3d-17722c82a087")
+		)
+		(pin "2"
+			(uuid "07ca6070-1fb3-47dd-a591-e856aea68529")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 364.49 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d9fc80-6a70-4a6f-99bd-e75c630e4742")
+		(property "Reference" "SW45"
+			(at 365.76 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 365.76 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 364.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fed7b9c-b325-4499-bb09-0a8077b3db17")
+		)
+		(pin "2"
+			(uuid "c4b8430d-a067-429e-81af-74b3a11d074c")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 189.23 0)
 		(unit 1)
@@ -13110,6 +20212,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 453.39 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed07f244-5f26-46f2-8c7b-e9a68dcd61f2")
+		(property "Reference" "SW19"
+			(at 454.66 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 454.66 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 453.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 453.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc40192-e8ed-49d9-83de-30d68f6ea296")
+		)
+		(pin "2"
+			(uuid "5f83d39f-fe35-43c4-81ef-ffb1f2035d96")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 466.09 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efc394f6-b464-40fd-91ea-2b0ece2b4412")
+		(property "Reference" "SW20"
+			(at 467.36 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 467.36 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 466.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5ecb6a8-f671-4292-9beb-d920009f32c5")
+		)
+		(pin "2"
+			(uuid "11dfe208-05c1-4741-b701-6a37e4da2c46")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 163.83 66.04 0)
 		(unit 1)
@@ -13170,6 +20412,76 @@
 			(project ""
 				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 351.79 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80f6503-aa8e-488c-8dcb-6ada1ee38956")
+		(property "Reference" "SW44"
+			(at 353.06 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 353.06 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 351.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e825652-0ef2-4dbd-aea5-f07773d0ca75")
+		)
+		(pin "2"
+			(uuid "ee0a2c04-629a-4321-9ffc-6c0834985b64")
+		)
+		(instances
+			(project "mutantc-mainboard"
+				(path "/68cab76f-2102-4e74-8de7-71a9989b352f"
+					(reference "SW44")
 					(unit 1)
 				)
 			)
